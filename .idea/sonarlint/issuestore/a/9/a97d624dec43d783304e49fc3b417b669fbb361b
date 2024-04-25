@@ -1,0 +1,23 @@
+
+~
+java:S1319"hThe type of "students" should be an interface such as "List" rather than the implementation "ArrayList".(ŞÂØ
+ƒ
+java:S1319&"hThe type of "teachers" should be an interface such as "List" rather than the implementation "ArrayList".(¥ÂÙÖûÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÙÖğÇ
+U
+java:S1118	":Add a private constructor to hide the implicit public one.(“‹„èúÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÚÑÓ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(É¢­Ú
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ôç¢×
+S	java:S106"9Replace this use of System.out or System.err by a logger.(õ˜Ô‡øÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(—ÄÀü
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ï°âë
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ƒ²¬¢úÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(ûû@
+N	java:S106("9Replace this use of System.out or System.err by a logger.(ÓÎ÷û
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(»â‡‰ûÿÿÿÿ
+N	java:S106-"9Replace this use of System.out or System.err by a logger.(Ôç¢×
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(õ˜Ô‡øÿÿÿÿ
+N	java:S1061"9Replace this use of System.out or System.err by a logger.(—ÄÀü
+N	java:S1064"9Replace this use of System.out or System.err by a logger.(ï°âë
+N	java:S1067"9Replace this use of System.out or System.err by a logger.(şŠ¡ç
