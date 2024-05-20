@@ -21,6 +21,27 @@ public class OutputStudents_Teachers {
 
         }
     }
+
+     public static void printTeachersId(Connection connection) throws SQLException{
+        String querry = "Select TeacherID From Teachers";
+        try(Statement statement = connection.createStatement();
+        ResultSet resultSet = statement.executeQuery(querry)){
+            while(resultSet.next()){
+                int id = resultSet.getInt("TeacherId");
+                System.out.println("Teachers Id are:" + id);
+            }
+        }
+     }
+    public static void printStudentsId(Connection connection) throws SQLException{
+        String querry = "Select StudentId From Students1";
+        try(Statement statement = connection.createStatement();
+            ResultSet resultSet = statement.executeQuery(querry)){
+            while(resultSet.next()){
+                int id = resultSet.getInt("StudentId");
+                System.out.println("Students Id are:" + id);
+            }
+        }
+    }
     public static void printStudents(Connection connection) throws SQLException {
         String query = "SELECT * FROM Students1";
         try (Statement statement = connection.createStatement();
